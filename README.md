@@ -5,7 +5,14 @@ Este proyecto tiene como objetivo demostrar de forma práctica la vulnerabilidad
 Estructura de archivos
 El proyecto está organizado de la siguiente manera:
 
-InyeccionSQL/ ├── README.md ├── database.sql ├── prision.db ├── generar_datos.py ├── app_vulnerable.py ├── app_segura.py ├── requirements.txt
+InyeccionSQL/ 
+├── README.md 
+├── database.sql 
+├── prision.db 
+├── generar_datos.py 
+├── app_vulnerable.py 
+├── app_segura.py 
+├── requirements.txt
 
 Temática elegida
 La temática del proyecto está basada en la gestión de una prisión. La base de datos representa un entorno realista que incluye usuarios del sistema (administradores y guardias), presos, celdas, delitos, condenas y visitas. Esta temática se eligió por su claridad para representar relaciones complejas y por ser adecuada para realizar pruebas de autenticación, búsquedas e inserciones, así como para demostrar ataques de Inyección SQL en un contexto real.
